@@ -6,12 +6,7 @@
 package wordcounter;
 
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.ResourceBundle;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -82,7 +77,6 @@ public class FXMLDocumentController implements Initializable {
         for(String x : words){
             if(x.isEmpty()){
                 amountOfWords = amountOfWords - 1;
-                System.out.println(x);
             }
         }
        
