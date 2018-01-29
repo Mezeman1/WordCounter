@@ -11,25 +11,25 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 
 /**
  *
  * @author mezem
  */
 public class FXMLDocumentController implements Initializable {
-    
     @FXML
-    private Label label;
-    
+    private Label wordCountLabel;
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
+    private Label dotCountLabel;
+    @FXML
+    private Label sentenceCountLabel;
+    @FXML
+    private TextArea wordCounter;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
     
 }
