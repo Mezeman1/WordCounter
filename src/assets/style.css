@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-jan-2018, 19:36:33
+    Author     : mezem
+*/
+
+.root{
+    -fx-background-color: #75c0dd;
+}
+
+.text-area {
+    -fx-background-color: #ededed;
+    -fx-padding: 2px;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.text-area .content {
+   -fx-background-color: #74c3e0;
+   -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+    -fx-font-size: 18px;
+}
+
+
+
